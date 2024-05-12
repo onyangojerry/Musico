@@ -15,61 +15,41 @@ Deployment - AWS, Heroku, Google cloud
 
 HIGHER LEVEL
 
-Building a Java application that allows users to share their liked songs or playlists is an exciting project! You'll likely want to consider a few key components for your application:
-
-1. **User Interface (UI)**: Decide how you want the application to look and how users will interact with it. For a desktop app, you might use Swing or JavaFX. For a web-based app, consider using Java with a framework like Spring Boot and a front-end technology like React or Angular.
-
-2. **Database**: To store user information, liked songs, and playlists, you'll need a database. Common choices with Java are MySQL, PostgreSQL, or even NoSQL databases like MongoDB.
-
-3. **API Integration**: If you want to include real songs and playlists, consider integrating with a music API like Spotify, Apple Music, or SoundCloud. This will allow you to pull song data and possibly even play music directly through your app.
-
-4. **Authentication and Authorization**: You’ll need a way to handle user accounts securely. OAuth is a common standard used for this, especially if you're integrating with third-party music services.
-
-5. **Sharing Functionality**: Decide on the method for users to share playlists—whether it's through direct links, social media integration, or within the app itself.
-
-6. **Backend Logic**: This includes the server-side code that handles API requests, interacts with the database, and processes user inputs. Java frameworks like Spring Boot are very useful for this purpose.
-
-7. **Deployment**: Finally, think about how you'll host and deploy your app. If it's a web app, you might use services like AWS, Heroku, or Google Cloud.
-
-Here’s a high-level plan on how you could start:
-
-### Step 1: Set Up Your Java Development Environment
+Step 1: Set Up Your Java Development Environment
 - Install Java and a suitable IDE like IntelliJ IDEA or Eclipse.
 - Set up a project using a build tool like Maven or Gradle.
 
-### Step 2: Design Your Application
+Step 2: Design Your Application
 - Sketch out the UI and user flow.
 - Design your database schema.
 - Decide on the technologies for the frontend and backend.
 
-### Step 3: Develop the Backend
+Step 3: Develop the Backend
 - Implement your database using JDBC or an ORM like Hibernate.
 - Create RESTful services using Spring Boot to handle CRUD operations for users, songs, and playlists.
 
-### Step 4: Integrate Music API
+Step 4: Integrate Music API
 - Choose a music API and get the necessary API keys.
 - Implement API calls to fetch song data and handle authentication.
 
-### Step 5: Develop the Frontend
+Step 5: Develop the Frontend
 - Build the user interface using your chosen technology.
 - Connect the frontend to the backend using AJAX or a state management library.
 
-### Step 6: Add Authentication
+Step 6: Add Authentication
 - Implement user authentication using OAuth or another secure method.
 - Ensure that users can only access their data.
 
-### Step 7: Implement Sharing Features
+Step 7: Implement Sharing Features
 - Add functionality to share playlists and liked songs.
 - Consider privacy settings and how links can be accessed.
 
-### Step 8: Test Your Application
+Step 8: Test Your Application
 - Conduct thorough testing, both automated and manual, to catch bugs.
 
-### Step 9: Deploy Your Application
+Step 9: Deploy Your Application
 - Deploy your application to a web server or cloud service.
 - Ensure it's scalable to handle multiple users.
 
-### Step 10: Maintain and Update
+Step 10: Maintain and Update
 - Regularly update the application with new features and maintain it by fixing any issues that arise.
-
-If you have specific questions about any of these steps or need help with coding, feel free to ask!
