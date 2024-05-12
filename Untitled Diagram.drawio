@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T23:55:13.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Aw_vJa0kMIplS5ExEnZT" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T23:56:34.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="yDMYuIo_uk1sE_roLAVa" version="24.4.0" type="github">
   <diagram name="Page-1" id="cCN-u15HhMg9brq_qVde">
     <mxGraphModel dx="2044" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -222,6 +222,12 @@
         </mxCell>
         <mxCell id="xY_Foczub1W16MGnSqBr-74" value="off app" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-76" value="socials" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-77" value="spotify" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
