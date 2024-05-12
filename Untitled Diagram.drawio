@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T23:42:29.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Cdp-utOw55CsKPX2EGX4" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T23:47:54.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xj5vvvJE4JeZHT9Gvh34" version="24.4.0" type="github">
   <diagram name="Page-1" id="cCN-u15HhMg9brq_qVde">
     <mxGraphModel dx="2044" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,6 +73,9 @@
         <mxCell id="xY_Foczub1W16MGnSqBr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xY_Foczub1W16MGnSqBr-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-40" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39" y="415" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xY_Foczub1W16MGnSqBr-28" value="my playlists" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -170,6 +173,37 @@
         </mxCell>
         <mxCell id="xY_Foczub1W16MGnSqBr-61" value="rename playlist" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="930" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="630" as="sourcePoint" />
+            <mxPoint y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry y="600" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-64" value="share playlist" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="625" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.022;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xY_Foczub1W16MGnSqBr-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="710" as="sourcePoint" />
+            <mxPoint x="160" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.383;exitY=1.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xY_Foczub1W16MGnSqBr-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="590" as="sourcePoint" />
+            <mxPoint x="210" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-67" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xY_Foczub1W16MGnSqBr-68" value="visible publicly" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="630" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
