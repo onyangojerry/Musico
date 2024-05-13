@@ -9,7 +9,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @Controller
 public class LoginController {
 
+    @Autowired
     private UserService userService;
+
+    @Autowired
+    private BCryptPasswordEncoder passwordEncoder;
 
     @GetMapping("/login")
     public String showLoginPage(){
@@ -33,21 +37,18 @@ public class LoginController {
 
     private boolean authenticate(String username, String password){
         String storedPasswordHash = userService.getPasswordHashFromDatabase(username);
-        //String expectedPasswordHash = getPasswordHashFromDatabase(username);
-        // authenticate login here, check againsta a database
-        // Compare the hashed password with the one entered by the user
-        // return expectedPasswordHash.equals(hashPassword(password));
-        return storedPasswordHash != null && storedPasswordHash.equals(hashPassword(password));
-
+        //return storedPasswordHash != null && storedPasswordHash.equals(hashPassword(password));
+        return passwordEncoder.matches(password, storedPasswordHash);
     }
+
     private String getPasswordHashFromDatabase(String username){
         // retrieve hashed password from database
         return "storedPasswordHash"; // Placeholder
     }
     private String hashPassword(String password){
         // Apply hashing algorithm
-        private BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        return encoder.encode(password); // Placeholder
+        passwordEncoder = new BCryptPasswordEncoder();
+        return passwordEncoder.encode(password); // Placeholder
     }
 
     public String toString(){
