@@ -12,13 +12,15 @@ public class LoginController {
         return "login"; // returns the login page (login.html)
     }
 
-    @PostMappingLogin("/login")
+    @PostMapping("/login")
     public ModelAndView processLogin(@RequestParam("username") String username, @RequestParam("password") String password ){
         boolean isAuthenticated = authenticate(username, password);
 
         if(isAuthenticated){
-            return new ModelAndView("redirected:/dashboard");
+            // Redirect to the dashboard if authenticated
+            return new ModelAndView("redirect:/dashboard");
         }else{
+            // Return to login page with an error message if authentication fails
             ModelAndView modelAndView = new ModelAndView("login");
             modelAndView.addObject("error", "Invalid username or password");
             return modelAndView;
