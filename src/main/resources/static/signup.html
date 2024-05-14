@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!-- Add the lang attribute and set it to the primary language of this document -->
 <head>
+    <meta charset="UTF-8"> <!-- It's also good practice to include a charset definition -->
     <title>Signup</title>
 </head>
 <body>
 <form action="/auth/signup" method="post">
-    <input type="text" name="username" placeholder="Username" required>
-    <input type="password" name="password" placeholder="Password" required>
+    <label for="username">Username:</label> <!-- Label for the username input -->
+    <input id="username" type="text" name="username" placeholder="Username" required>
+
+    <label for="password">Password:</label> <!-- Label for the password input -->
+    <input id="password" type="password" name="password" placeholder="Password" required>
+
     <button type="submit">Signup</button>
 </form>
 </body>
