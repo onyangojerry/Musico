@@ -1,6 +1,6 @@
 package com.allmusic.musico.repository;
 
-import com.mycompany.musicshare.model.User;
+import com.allmusic.musico.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<User, String> {
