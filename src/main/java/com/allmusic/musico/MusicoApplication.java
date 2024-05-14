@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MusicShareApplication {
+public class MusicoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MusicShareApplication.class, args);
+        SpringApplication.run(MusicoApplication.class, args);
     }
 }
